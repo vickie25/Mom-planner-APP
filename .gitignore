@@ -26,16 +26,31 @@ npm-debug.*
 yarn-debug.*
 yarn-error.*
 
-# macOS
+# OS-specific
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment and sensitive files
+.env
+.env.local
+.env.*.local
 *.pem
+*.key
 
-# local env files
-.env*.local
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# typescript
+# TypeScript
 *.tsbuildinfo
 
-# generated native folders
+# Generated native folders
 /ios
 /android
